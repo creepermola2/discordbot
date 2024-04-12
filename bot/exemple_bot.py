@@ -24,6 +24,9 @@ async def on_message(message):
 
     if message.content.startswith('!holi'):
         await message.channel.send('cállate puto mueble')
+        
+    if message.content.startswith('!negro'):
+        await message.channel.send('Ojalá se mueran')
 
 # Ejecuta el cliente con el token de autenticación
 client.run(TOKEN)
